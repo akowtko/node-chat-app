@@ -1,4 +1,4 @@
-const expect = require('expect');
+const expect = require('expect/lib');
 const {generateMessage, generateLocationMessage} = require('./message');
 
 describe('generateMessage', () => {
